@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SoraZuri</title>
+	<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+	<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+	<style type="text/css">
+		body {
+			margin: 0;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+	<a-scene embedded artoolkit='sourceType: webcam;'>
+		<a-box position='0 0 0.5' material='opacity: 0.5;'></a-box>
+		<a-marker-camera preset='hiro'></a-marker-camera>
+	</a-scene>
+</body>
+</html>
