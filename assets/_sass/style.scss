@@ -97,6 +97,11 @@ ul, ol {
 		position: absolute;
 		animation: moveY 3s infinite alternate ease-in,
 		           moveX 10s infinite normal linear;
+
+		img {
+			width: 50%;
+			height: auto;
+		}
 	}
 }
 
