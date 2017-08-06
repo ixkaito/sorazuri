@@ -18,9 +18,9 @@ const current = {
   windspeed: env.osaka[now - 1].windSpeed,
 }
 
-$('#env .pressure').append(current.pressure + 'hPa');
-$('#env .temperature').append(current.temperature + '℃');
-$('#env .windspeed').append(current.windspeed + 'm/s');
+$('#env .pressure').append(current.pressure + ' hPa');
+$('#env .temperature').append(current.temperature + ' ℃');
+$('#env .windspeed').append(current.windspeed + ' m/s');
 
 let num = 1;
 let fish;
