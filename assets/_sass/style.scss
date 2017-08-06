@@ -4,9 +4,10 @@ html {
 }
 
 body {
+	font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+	height: 100%;
 	margin: 0;
 	overflow: hidden;
-	height: 100%;
 	width: 100%;
 }
 
@@ -61,11 +62,18 @@ ul, ol {
 }
 
 #env {
-	background: rgba(#000, 0.25);
+	background: rgba(#000, 0.4);
+	color: #fff;
+	font-size: 12px;
 	padding: 1em;
 	position: fixed;
 	right: 30px;
 	top: 20px;
+	z-index: 9999;
+
+	p {
+		margin: 0;
+	}
 }
 
 #fish {
