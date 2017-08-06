@@ -1,0 +1,24 @@
+{
+  "name": "sorazuri",
+  "version": "0.1.0",
+  "description": "Sky fishing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass --output-style compressed -w --recursive assets/_sass --output assets/css & webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorazuri/sorazuri.git"
+  },
+  "author": "Kite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sorazuri/sorazuri/issues"
+  },
+  "homepage": "https://github.com/sorazuri/sorazuri#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "webpack": "^3.4.1"
+  }
+}
