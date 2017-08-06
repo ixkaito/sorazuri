@@ -10,7 +10,13 @@ body {
 	width: 100%;
 }
 
-.scope {
+ul, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#scope {
 	height: 300px;
 	left: 50%;
 	margin: -150px 0 0 -150px;
@@ -52,4 +58,39 @@ body {
 			}
 		}
 	}
+}
+
+#env {
+	background: rgba(#000, 0.25);
+	padding: 1em;
+	position: fixed;
+	right: 30px;
+	top: 20px;
+}
+
+#fish {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 5000;
+
+	.fish-1 {
+		position: absolute;
+		animation: moveY 3s infinite alternate ease-in,
+		           moveX 10s infinite normal linear;
+	}
+}
+
+@keyframes moveX {
+	0% {left: 0;}
+	50% {left: 50%;}
+	100% {left: 5%;}
+}
+
+@keyframes moveY {
+	0% {top: 0;}
+	50% {top: 20%;}
+	100% {top: 5%;}
 }
